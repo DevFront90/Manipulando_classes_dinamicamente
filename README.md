@@ -10,26 +10,6 @@ Altera atributos de tags personalizadas.
 
 Muda o estilo de um elemento com .css().
 
-🧾 Código explicado
-HTML
-html
-Copiar
-Editar
-<minhatag meuattr="algumvalor">Minha tag personalizada</minhatag>
-
-<div class="content">
-  <div class="box1">
-    <div class="child1">
-      <div class="child2">
-        Texto interno que será alterado com jQuery.
-      </div>
-    </div>
-  </div>
-</div>
-minhatag é uma tag personalizada com um atributo chamado meuattr.
-
-As divs são organizadas em níveis (box1 > child1 > child2) para demonstrar o uso do .find().
-
 jQuery
 js
 Copiar
@@ -48,6 +28,7 @@ $(function() {
     // Altera o atributo e exibe seu valor
     alert($('minhatag').attr('meuattr', 'outrovalor'));
 });
+
 🧠 O que você aprende com esse exemplo?
 Como usar jQuery para selecionar e modificar elementos.
 

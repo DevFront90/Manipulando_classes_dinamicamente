@@ -14,20 +14,6 @@ jQuery
 js
 Copiar
 Editar
-$(function() {
-    // Adiciona uma classe dinamicamente
-    $('.box1').addClass('minhaClasse');
-
-    // Remove a classe adicionada
-    $('.box1').removeClass('minhaClasse');
-
-    // Encontra elementos internos e altera o estilo
-    var el = $('.box1').find('.child1').find('.child2');
-    el.css('color','red');
-
-    // Altera o atributo e exibe seu valor
-    alert($('minhatag').attr('meuattr', 'outrovalor'));
-});
 
 🧠 O que você aprende com esse exemplo?
 Como usar jQuery para selecionar e modificar elementos.
